@@ -1,0 +1,31 @@
+.border{
+    border-radius: 2.5px;
+    border:2px solid rgb(240, 240, 240);
+}
+.secondColor{
+    color: #48C2F6;
+}
+.primaryColor{
+    color:#FF8B8B;
+}
+.background-primaryColor{
+    background-color: #FF8B8B;
+}
+.background-secondColor{
+    background-color: #48C2F6;
+}
+.input-text{
+    font-family: 'Jockey One';
+    font-weight: 100;
+    font-size: 15px;
+    padding-left: 10px;
+    letter-spacing: 3px;
+}
+.input-submit{
+    font-family: 'Jockey One';
+    letter-spacing: 0.3em;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}

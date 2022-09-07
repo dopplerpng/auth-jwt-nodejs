@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Jockey One';
+    src: url('JockeyOne-Regular.ttf') format('truetype');
+  }
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Jockey One';
+    height: 100%;
+    width: 100%;
+}
+.form-container{
+    margin-top: 5%;
+    width: 500px;
+    height: 500px;
+    background-color: #FFFFFF;
+    display:flex;
+    flex-direction: column;
+    -ms-flex-align:center ;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    
+}
+#h1{
+    
+    font-weight: 600;
+    font-size: 12.5vh;
+    letter-spacing: 10px;
+}
+#username{
+    
+    width: 80%;
+    height: 35px;
+    margin:10px 0 5px 0;
+}
+#password{
+    font-family: 'Jockey One';
+    width: 80%;
+    height: 35px;
+}
+#login{
+    
+    width: 80%;
+    height: 35px;
+    margin-top: 5px;
+}
+#register{
+    width: 80%;
+    height: 35px;
+    margin-top: 5px;
+}
